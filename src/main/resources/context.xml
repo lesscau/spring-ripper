@@ -6,6 +6,8 @@
 
     <context:annotation-config/>
 
+    <bean class="quoters.DepreciationHandlerBeanFactoryPostProcessor"/>
+
     <bean class="quoters.PostProxyInvokerContextListener"/>
 
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
